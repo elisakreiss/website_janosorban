@@ -28,6 +28,8 @@ navbar:
       href: index.html
     - text: "EN"
       href: index_en.html
+    - text: "HU"
+      href: index_hu.html
     - icon: fa-question fa-lg
       href: https://example.com
 output:
