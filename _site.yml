@@ -1,8 +1,37 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: "Official Website"
+  type: inverse
   left:
-    - text: "Home"
-      href: index.html
     - text: "About"
-      href: about.html
+      icon: fa-home
+      href: index.html
+    - text: "Videos"
+      icon: fa-film
+      href: videos.html
+    - text: "More"
+      icon: fa-gear
+      menu:
+        - text: "Heading 1"
+        - text: "Page A"
+          href: page_a.html
+        - text: "Page B"
+          href: page_b.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: page_c.html
+        - text: "Page D"
+          href: page_d.html
+  right:
+    - text: "DE"
+      href: index.html
+    - text: "EN"
+      href: index_en.html
+    - icon: fa-question fa-lg
+      href: https://example.com
+output:
+  html_document:
+    include:
+      after_body: footer.html
+    css: styles.css

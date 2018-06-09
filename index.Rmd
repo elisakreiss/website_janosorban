@@ -1,28 +1,17 @@
 ---
-title: "Website Janos"
+title: "Janos Orban"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+---
+---
 
-## R Markdown
+<!-- <link rel="stylesheet" href="styles.css" type="text/css"> -->
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+<img src="blub.jpg" style="width:50%; border:3px solid; margin-right: 20px" align="left">
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Janos Orban ist ein in Deutschland lebender, ungarischer Posaunist.
 
-```{r cars}
-summary(cars)
-```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed auctor nisl. Phasellus sit amet massa a dolor venenatis lacinia vel a tellus. Cras varius, dui eleifend facilisis scelerisque, nulla arcu laoreet diam, ut mattis nisl arcu varius lorem. In eget neque non dui euismod pellentesque sit amet vel massa. Donec gravida vehicula massa, vitae placerat sem cursus sed. Aliquam consectetur tempor quam, interdum pharetra augue lobortis eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam sed purus sem. Nunc ac malesuada est. Vivamus nulla tortor, dictum sit amet lorem non, sollicitudin euismod dui.
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Duis ac elementum orci. Proin molestie, elit ac luctus ullamcorper, lorem risus posuere nisi, in convallis ligula nisl sed velit. Etiam id mattis velit. Aliquam hendrerit sagittis tristique. Donec pellentesque purus at pulvinar consequat. Praesent egestas ac massa suscipit sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
